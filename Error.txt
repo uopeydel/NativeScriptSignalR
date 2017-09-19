@@ -1,0 +1,658 @@
+﻿System.err: java.lang.RuntimeException: Unable to create application com.tns.NativeScriptApplication: com.tns.NativeScriptException:
+System.err: Error calling module function
+System.err: Error calling module function
+System.err: Error calling module function
+System.err: Error calling module function
+System.err: Error calling module function
+System.err: Error calling module function
+System.err: Error calling module function
+System.err: Error calling module function
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/signalr_client/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+ActivityManager: Process org.nativescript.AssisChatApp (pid 3470) has died
+20:08:28 - File change detected. Starting incremental compilation...
+
+
+
+20:08:30 - Compilation complete. Watching for file changes.
+
+
+
+Executing before-prepare hook from C:\native\Assis\AssisChatApp\hooks\before-prepare\nativescript-dev-typescript.js
+Preparing project...
+Project successfully prepared (Android)
+20:08:37 - File change detected. Starting incremental compilation...
+
+
+
+20:08:37 - Compilation complete. Watching for file changes.
+
+
+
+Installing...
+Successfully installed on device with identifier 'emulator-5554'.
+Successfully transferred items.component.ts.
+Successfully transferred items.component.js.
+Refreshing application...
+Successfully synced application org.nativescript.AssisChatApp on device emulator-5554.
+Executing after-watch hook from C:\native\Assis\AssisChatApp\hooks\after-watch\nativescript-dev-typescript.js
+Executing after-watch hook from C:\native\Assis\AssisChatApp\hooks\after-watch\nativescript-dev-typescript.js
+Executing after-watch hook from C:\native\Assis\AssisChatApp\hooks\after-watch\nativescript-dev-typescript.js
+Executing after-watch hook from C:\native\Assis\AssisChatApp\hooks\after-watch\nativescript-dev-typescript.js
+Executing after-watch hook from C:\native\Assis\AssisChatApp\hooks\after-watch\nativescript-dev-typescript.js
+Executing after-watch hook from C:\native\Assis\AssisChatApp\hooks\after-watch\nativescript-dev-typescript.js
+JS: Angular is running in the development mode. Call enableProdMode() to enable the production mode.
+JS: ERROR TypeError: _co.StartSignalR is not a function
+JS: ERROR CONTEXT [object Object]
+JS: ERROR TypeError: _co.onTap is not a function
+JS: ERROR CONTEXT [object Object]
+Executing after-watch hook from C:\native\Assis\AssisChatApp\hooks\after-watch\nativescript-dev-typescript.js
+Executing after-watch hook from C:\native\Assis\AssisChatApp\hooks\after-watch\nativescript-dev-typescript.js
+Terminate batch job (Y/N)? n
+
+C:\native\Assis\AssisChatApp>tns run android
+Searching for devices...
+Executing before-liveSync hook from C:\native\Assis\AssisChatApp\hooks\before-liveSync\nativescript-angular-sync.js
+Executing before-prepare hook from C:\native\Assis\AssisChatApp\hooks\before-prepare\nativescript-dev-typescript.js
+Found peer TypeScript 2.4.2
+Preparing project...
+Project successfully prepared (Android)
+Successfully transferred items.component.js.
+Refreshing application...
+Successfully synced application org.nativescript.AssisChatApp on device emulator-5554.
+Executing before-watch hook from C:\native\Assis\AssisChatApp\hooks\before-watch\nativescript-dev-typescript.js
+Found peer TypeScript 2.4.2
+20:12:44 - Compilation complete. Watching for file changes.
+
+
+
+System.err: java.lang.RuntimeException: Unable to create application com.tns.NativeScriptApplication: com.tns.NativeScriptException:
+System.err: Error calling module function
+System.err: Error calling module function
+System.err: Error calling module function
+System.err: Error calling module function
+System.err: Error calling module function
+System.err: Error calling module function
+System.err: Error calling module function
+System.err: Error calling module function
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/@aspnet/signalr-client/dist/src/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/@aspnet/signalr-client/dist/src/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/@aspnet/signalr-client/dist/src/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/@aspnet/signalr-client/dist/src/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/@aspnet/signalr-client/dist/src/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/@aspnet/signalr-client/dist/src/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/@aspnet/signalr-client/dist/src/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/@aspnet/signalr-client/dist/src/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/@aspnet/signalr-client/dist/src/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/@aspnet/signalr-client/dist/src/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/@aspnet/signalr-client/dist/src/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/@aspnet/signalr-client/dist/src/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/msgpack5/index.js', line: 3, column: 14
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/@aspnet/signalr-client/dist/src/MessagePackHubProtocol.js', line: 6, column: 18
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/@aspnet/signalr-client/dist/src/index.js', line: 13, column: 10
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/item/items.component.js', line: 4, column: 15
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.routing.js', line: 5, column: 25
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/app.module.js', line: 5, column: 21
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/main.js', line: 5, column: 20
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err: Error: com.tns.NativeScriptException: Failed to find module: "buffer", relative to: app/tns_modules/
+System.err:     com.tns.Module.resolvePathHelper(Module.java:146)
+System.err:     com.tns.Module.resolvePath(Module.java:55)
+System.err:     com.tns.Runtime.runModule(Native Method)
+System.err:     com.tns.Runtime.runModule(Runtime.java:530)
+System.err:     com.tns.Runtime.run(Runtime.java:522)
+System.err:     com.tns.NativeScriptApplication.onCreate(NativeScriptApplication.java:19)
+System.err:     android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1013)
+System.err:     android.app.ActivityThread.handleBindApplication(ActivityThread.java:4707)
+System.err:     android.app.ActivityThread.-wrap1(ActivityThread.java)
+System.err:     android.app.ActivityThread$H.handleMessage(ActivityThread.java:1405)
+System.err:     android.os.Handler.dispatchMessage(Handler.java:102)
+System.err:     android.os.Looper.loop(Looper.java:148)
+System.err:     android.app.ActivityThread.main(ActivityThread.java:5417)
+System.err:     java.lang.reflect.Method.invoke(Native Method)
+System.err:     com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+System.err:     com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+System.err: File: "<unknown>, line: 1, column: 265
+System.err: StackTrace:
+System.err:     Frame: function:'require', file:'', line: 1, column: 266
+System.err:     Frame: function:'', file:'file:///data/data/org.nativescript.AssisChatApp/files/app/tns_modules/safe-buffer/index.js', line: 2, column: 14
+ActivityManager: Process org.nativescript.AssisChatApp (pid 3870) has died
